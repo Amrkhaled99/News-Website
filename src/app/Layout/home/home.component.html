@@ -1,0 +1,99 @@
+
+
+
+   <!-- ######################### Card ######################## -->
+   <div class="container">
+
+
+  <app-slider></app-slider>
+
+<div class="row">
+  
+   <div   *ngFor="let data of allNews;" class="col-sm-6 col-md-4 col-lg-3 my-4">
+     <div class="card h-100">
+       <img [src]="data.urlToImage || '/assets/img/default-img.png'"  class="card-img-top" style="height:100%" alt="...">
+       <div class="card-body">
+         <h5 class="card-title">{{data.title}}</h5>
+         <p class="card-text">{{data.description}}</p>
+         <a  (click)="viewDetails(data.url)" class="btn btn-primary" style="bottom: 2px;text-align: center;">المزيد</a>
+       </div>
+      
+     </div>
+   </div>
+</div>
+
+
+
+
+<h2 class="font-weight-light">Bootstrap 4 Horizontal Scrolling Cards with Flexbox</h2>
+<div class="Horizontal-Skider">
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+  <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+    <div class="card card-body">Card</div>
+</div>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- //End -->
+
+
+
+
+</div>
+
+

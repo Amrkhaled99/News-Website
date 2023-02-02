@@ -1,0 +1,25 @@
+/* #carouselExampleDark >div{
+    
+ }  */
+
+
+ .carousel-slider img{
+    height: 450px;
+    width: 100%;
+ }
+
+ .carousel-caption {
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+        /* opacity: 0.5; */
+
+    width: 100%;
+    right: 0;
+ }
+
+
+
+ .slider-banner img{
+    width: 100%;
+    height: 450px;
+ }

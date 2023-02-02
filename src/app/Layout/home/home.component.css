@@ -1,0 +1,16 @@
+.Horizontal-Skider{
+ height: 300px;
+  display: flex;
+  flex-direction: column;
+  cursor:pointer;
+overflow-y: auto;   
+}
+.Horizontal-Skider::-webkit-scrollbar{
+  height: 0;
+}
+
+.card-body {
+  min-height: 300px;
+  min-width: 300px;
+  margin-right: 5px;
+}
